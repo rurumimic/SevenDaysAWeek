@@ -11,13 +11,13 @@
 		5F4BDFEEEBF9588289087FB0 /* Pods_SevenDaysAWeekUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EF84D109D7C12C8118E9E6 /* Pods_SevenDaysAWeekUITests.framework */; };
 		7E419C8B88486E94067A315E /* Pods_SevenDaysAWeek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09E62AE7087821C00DD9651C /* Pods_SevenDaysAWeek.framework */; };
 		C9A773D122BD23E3006E0DC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A773D022BD23E3006E0DC7 /* AppDelegate.swift */; };
-		C9A773D322BD23E3006E0DC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A773D222BD23E3006E0DC7 /* ViewController.swift */; };
-		C9A773D622BD23E3006E0DC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9A773D422BD23E3006E0DC7 /* Main.storyboard */; };
+		C9A773D622BD23E3006E0DC7 /* MainScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9A773D422BD23E3006E0DC7 /* MainScreen.storyboard */; };
 		C9A773D922BD23E3006E0DC7 /* SevenDaysAWeek.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9A773D722BD23E3006E0DC7 /* SevenDaysAWeek.xcdatamodeld */; };
 		C9A773DB22BD23E4006E0DC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A773DA22BD23E4006E0DC7 /* Assets.xcassets */; };
 		C9A773DE22BD23E4006E0DC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9A773DC22BD23E4006E0DC7 /* LaunchScreen.storyboard */; };
 		C9A773E922BD23E4006E0DC7 /* SevenDaysAWeekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A773E822BD23E4006E0DC7 /* SevenDaysAWeekTests.swift */; };
 		C9A773F422BD23E4006E0DC7 /* SevenDaysAWeekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A773F322BD23E4006E0DC7 /* SevenDaysAWeekUITests.swift */; };
+		C9E2288722C245F900BBF5FB /* MainWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E2288622C245F900BBF5FB /* MainWireFrame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +46,7 @@
 		C84148A9F993E06BC412B4E1 /* Pods-SevenDaysAWeekTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SevenDaysAWeekTests.release.xcconfig"; path = "Target Support Files/Pods-SevenDaysAWeekTests/Pods-SevenDaysAWeekTests.release.xcconfig"; sourceTree = "<group>"; };
 		C9A773CD22BD23E3006E0DC7 /* SevenDaysAWeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SevenDaysAWeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9A773D022BD23E3006E0DC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C9A773D222BD23E3006E0DC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C9A773D522BD23E3006E0DC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9A773D522BD23E3006E0DC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainScreen.storyboard; sourceTree = "<group>"; };
 		C9A773D822BD23E3006E0DC7 /* SevenDaysAWeek.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SevenDaysAWeek.xcdatamodel; sourceTree = "<group>"; };
 		C9A773DA22BD23E4006E0DC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9A773DD22BD23E4006E0DC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +57,7 @@
 		C9A773EF22BD23E4006E0DC7 /* SevenDaysAWeekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SevenDaysAWeekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9A773F322BD23E4006E0DC7 /* SevenDaysAWeekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenDaysAWeekUITests.swift; sourceTree = "<group>"; };
 		C9A773F522BD23E4006E0DC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9E2288622C245F900BBF5FB /* MainWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWireFrame.swift; sourceTree = "<group>"; };
 		D4C433CA94D628861B982DF2 /* Pods-SevenDaysAWeekUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SevenDaysAWeekUITests.release.xcconfig"; path = "Target Support Files/Pods-SevenDaysAWeekUITests/Pods-SevenDaysAWeekUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DB81981B8F19A07FE0FB9999 /* Pods-SevenDaysAWeek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SevenDaysAWeek.release.xcconfig"; path = "Target Support Files/Pods-SevenDaysAWeek/Pods-SevenDaysAWeek.release.xcconfig"; sourceTree = "<group>"; };
 		E70357788203006362DF2028 /* Pods-SevenDaysAWeekUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SevenDaysAWeekUITests.debug.xcconfig"; path = "Target Support Files/Pods-SevenDaysAWeekUITests/Pods-SevenDaysAWeekUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -139,9 +139,8 @@
 		C9A773CF22BD23E3006E0DC7 /* SevenDaysAWeek */ = {
 			isa = PBXGroup;
 			children = (
+				C9E2288522C245D300BBF5FB /* Main */,
 				C9A773D022BD23E3006E0DC7 /* AppDelegate.swift */,
-				C9A773D222BD23E3006E0DC7 /* ViewController.swift */,
-				C9A773D422BD23E3006E0DC7 /* Main.storyboard */,
 				C9A773DA22BD23E4006E0DC7 /* Assets.xcassets */,
 				C9A773DC22BD23E4006E0DC7 /* LaunchScreen.storyboard */,
 				C9A773DF22BD23E4006E0DC7 /* Info.plist */,
@@ -166,6 +165,15 @@
 				C9A773F522BD23E4006E0DC7 /* Info.plist */,
 			);
 			path = SevenDaysAWeekUITests;
+			sourceTree = "<group>";
+		};
+		C9E2288522C245D300BBF5FB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C9E2288622C245F900BBF5FB /* MainWireFrame.swift */,
+				C9A773D422BD23E3006E0DC7 /* MainScreen.storyboard */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,7 +287,7 @@
 			files = (
 				C9A773DE22BD23E4006E0DC7 /* LaunchScreen.storyboard in Resources */,
 				C9A773DB22BD23E4006E0DC7 /* Assets.xcassets in Resources */,
-				C9A773D622BD23E3006E0DC7 /* Main.storyboard in Resources */,
+				C9A773D622BD23E3006E0DC7 /* MainScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,7 +415,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9A773D322BD23E3006E0DC7 /* ViewController.swift in Sources */,
+				C9E2288722C245F900BBF5FB /* MainWireFrame.swift in Sources */,
 				C9A773D922BD23E3006E0DC7 /* SevenDaysAWeek.xcdatamodeld in Sources */,
 				C9A773D122BD23E3006E0DC7 /* AppDelegate.swift in Sources */,
 			);
@@ -445,12 +453,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C9A773D422BD23E3006E0DC7 /* Main.storyboard */ = {
+		C9A773D422BD23E3006E0DC7 /* MainScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C9A773D522BD23E3006E0DC7 /* Base */,
 			);
-			name = Main.storyboard;
+			name = MainScreen.storyboard;
 			sourceTree = "<group>";
 		};
 		C9A773DC22BD23E4006E0DC7 /* LaunchScreen.storyboard */ = {
