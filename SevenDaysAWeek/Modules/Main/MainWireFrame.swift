@@ -14,7 +14,7 @@ class MainWireFrame {
         return UIStoryboard(name: "MainScreen", bundle: Bundle.main)
     }
     
-    static func createMainModule() -> UIViewController {
+    static func createModule() -> UIViewController {
         let viewController = mainStoryboard.instantiateInitialViewController()!
         return viewController
     }
