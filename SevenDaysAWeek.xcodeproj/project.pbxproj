@@ -116,11 +116,18 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C91D726722C3BDB0004A872A /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				C9633EE122C24E3100FD4CBA /* ModuleEnum.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
 		C9633EE322C24F6D00FD4CBA /* Modules */ = {
 			isa = PBXGroup;
 			children = (
 				C9E2288522C245D300BBF5FB /* Main */,
-				C9633EE122C24E3100FD4CBA /* ModuleEnum.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -150,6 +157,7 @@
 		C9A773CF22BD23E3006E0DC7 /* SevenDaysAWeek */ = {
 			isa = PBXGroup;
 			children = (
+				C91D726722C3BDB0004A872A /* Enums */,
 				C9633EE322C24F6D00FD4CBA /* Modules */,
 				C9A773D022BD23E3006E0DC7 /* AppDelegate.swift */,
 				C9A773DA22BD23E4006E0DC7 /* Assets.xcassets */,
