@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Load First Module
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = Module.Main.view
+        window?.rootViewController = Modules.Main.view
         window?.makeKeyAndVisible()
         
         return true

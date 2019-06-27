@@ -8,15 +8,19 @@
 
 import UIKit
 
-class MainWireFrame {
+class MainWireframe {
     
     static var mainStoryboard: UIStoryboard {
         return UIStoryboard(name: "MainScreen", bundle: Bundle.main)
     }
     
     static func createModule() -> UIViewController {
-        let viewController = mainStoryboard.instantiateInitialViewController()!
-        return viewController
+        let tabBarViewController = mainStoryboard.instantiateInitialViewController() as! UITabBarController
+        
+        let homeView = Modules.Home.view
+        tabBarViewController.viewControllers = [homeView]
+        
+        return tabBarViewController
     }
     
 }

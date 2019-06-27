@@ -8,14 +8,17 @@
 
 import UIKit
 
-enum Module {
+enum Modules {
     
     case Main
+    case Home
     
     var view: UIViewController {
         switch self {
         case .Main:
-            return MainWireFrame.createModule()
+            return MainWireframe.createModule()
+        case .Home:
+            return HomeWireframe.createModule()
         }
     }
 }
