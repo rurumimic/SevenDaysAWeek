@@ -2,14 +2,14 @@
 //  HomeWireframe.swift
 //  SevenDaysAWeek
 //
-//  Created Dohyun Kim on 27/06/2019.
+//  Created by Dohyun Kim on 14/07/2019.
 //  Copyright © 2019 Dodo. All rights reserved.
 //
 
 import UIKit
 
 class HomeWireframe: HomeWireframeProtocol {
-    
+
     static var mainStoryboard: UIStoryboard {
         return UIStoryboard(name: "HomeScreen", bundle: Bundle.main)
     }
@@ -29,4 +29,5 @@ class HomeWireframe: HomeWireframeProtocol {
         }
         return UIViewController()
     }
+
 }
