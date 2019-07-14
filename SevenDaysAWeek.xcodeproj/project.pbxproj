@@ -17,6 +17,9 @@
 		C983525E22DAFD1C00D05752 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C983525822DAFD1C00D05752 /* HomeInteractor.swift */; };
 		C983525F22DAFD1C00D05752 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C983525922DAFD1C00D05752 /* HomeView.swift */; };
 		C983526022DAFD1C00D05752 /* HomeWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C983525A22DAFD1C00D05752 /* HomeWireframe.swift */; };
+		C983526422DAFFB600D05752 /* 01.startaproject.md in Resources */ = {isa = PBXBuildFile; fileRef = C983526222DAFFB600D05752 /* 01.startaproject.md */; };
+		C983526522DAFFB600D05752 /* 02.viper.md in Resources */ = {isa = PBXBuildFile; fileRef = C983526322DAFFB600D05752 /* 02.viper.md */; };
+		C983526722DAFFE100D05752 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C983526622DAFFE100D05752 /* README.md */; };
 		C9A773D122BD23E3006E0DC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A773D022BD23E3006E0DC7 /* AppDelegate.swift */; };
 		C9A773D622BD23E3006E0DC7 /* MainScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9A773D422BD23E3006E0DC7 /* MainScreen.storyboard */; };
 		C9A773D922BD23E3006E0DC7 /* SevenDaysAWeek.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9A773D722BD23E3006E0DC7 /* SevenDaysAWeek.xcdatamodeld */; };
@@ -58,6 +61,9 @@
 		C983525822DAFD1C00D05752 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
 		C983525922DAFD1C00D05752 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C983525A22DAFD1C00D05752 /* HomeWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWireframe.swift; sourceTree = "<group>"; };
+		C983526222DAFFB600D05752 /* 01.startaproject.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = 01.startaproject.md; sourceTree = "<group>"; };
+		C983526322DAFFB600D05752 /* 02.viper.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = 02.viper.md; sourceTree = "<group>"; };
+		C983526622DAFFE100D05752 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		C9A773CD22BD23E3006E0DC7 /* SevenDaysAWeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SevenDaysAWeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9A773D022BD23E3006E0DC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9A773D522BD23E3006E0DC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainScreen.storyboard; sourceTree = "<group>"; };
@@ -145,6 +151,15 @@
 			path = Modules;
 			sourceTree = "<group>";
 		};
+		C983526122DAFFB600D05752 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				C983526222DAFFB600D05752 /* 01.startaproject.md */,
+				C983526322DAFFB600D05752 /* 02.viper.md */,
+			);
+			path = Documents;
+			sourceTree = SOURCE_ROOT;
+		};
 		C9A773C422BD23E2006E0DC7 = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +185,8 @@
 		C9A773CF22BD23E3006E0DC7 /* SevenDaysAWeek */ = {
 			isa = PBXGroup;
 			children = (
+				C983526622DAFFE100D05752 /* README.md */,
+				C983526122DAFFB600D05752 /* Documents */,
 				C91D726722C3BDB0004A872A /* Enums */,
 				C9633EE322C24F6D00FD4CBA /* Modules */,
 				C9A773D022BD23E3006E0DC7 /* AppDelegate.swift */,
@@ -332,7 +349,10 @@
 			files = (
 				C9A773DE22BD23E4006E0DC7 /* LaunchScreen.storyboard in Resources */,
 				C983525B22DAFD1C00D05752 /* HomeScreen.storyboard in Resources */,
+				C983526422DAFFB600D05752 /* 01.startaproject.md in Resources */,
+				C983526722DAFFE100D05752 /* README.md in Resources */,
 				C9A773DB22BD23E4006E0DC7 /* Assets.xcassets in Resources */,
+				C983526522DAFFB600D05752 /* 02.viper.md in Resources */,
 				C9A773D622BD23E3006E0DC7 /* MainScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

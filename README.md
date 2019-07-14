@@ -2,26 +2,25 @@
 
 주7일 멈추지마
 
-## 첫번째, 프로젝트 시작하기
+## First, Start a project
 
-[프로젝트 시작하기](docs/01.howtostart.md)
+[Start a project](Documents/01.startaproject.md)
 
-- 프로젝트 생성
+- Create a project
 - Git
 - Cocoapods
 - RxSwift
 
-## 두번째, VIPER 패턴
+## Second, VIPER pattern
 
-[VIPER 패턴](docs/02.viper.md)
+[VIPER](Documents/02.viper.md)
 
-- 사전 준비
-- VIPER 모듈 생성
+- Add VIPER module
 
-## 세번째, 테스트 주도 개발
+## Third, Test-driven development
 
 Test-driven development
 
-## 네번째, Fastlane
+## Fourth, Fastlane
 
 Fastlane
