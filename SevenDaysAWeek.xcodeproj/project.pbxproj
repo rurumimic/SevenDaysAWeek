@@ -18,9 +18,6 @@
 		C983525E22DAFD1C00D05752 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C983525822DAFD1C00D05752 /* HomeInteractor.swift */; };
 		C983525F22DAFD1C00D05752 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C983525922DAFD1C00D05752 /* HomeView.swift */; };
 		C983526022DAFD1C00D05752 /* HomeWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C983525A22DAFD1C00D05752 /* HomeWireframe.swift */; };
-		C983526422DAFFB600D05752 /* 01.startaproject.md in Resources */ = {isa = PBXBuildFile; fileRef = C983526222DAFFB600D05752 /* 01.startaproject.md */; };
-		C983526522DAFFB600D05752 /* 02.viper.md in Resources */ = {isa = PBXBuildFile; fileRef = C983526322DAFFB600D05752 /* 02.viper.md */; };
-		C983526722DAFFE100D05752 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C983526622DAFFE100D05752 /* README.md */; };
 		C9A773D122BD23E3006E0DC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A773D022BD23E3006E0DC7 /* AppDelegate.swift */; };
 		C9A773D622BD23E3006E0DC7 /* MainScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9A773D422BD23E3006E0DC7 /* MainScreen.storyboard */; };
 		C9A773D922BD23E3006E0DC7 /* SevenDaysAWeek.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9A773D722BD23E3006E0DC7 /* SevenDaysAWeek.xcdatamodeld */; };
@@ -55,6 +52,8 @@
 		B3EF84D109D7C12C8118E9E6 /* Pods_SevenDaysAWeekUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SevenDaysAWeekUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B601BF492014365C470A4D /* Pods-SevenDaysAWeekTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SevenDaysAWeekTests.debug.xcconfig"; path = "Target Support Files/Pods-SevenDaysAWeekTests/Pods-SevenDaysAWeekTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C84148A9F993E06BC412B4E1 /* Pods-SevenDaysAWeekTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SevenDaysAWeekTests.release.xcconfig"; path = "Target Support Files/Pods-SevenDaysAWeekTests/Pods-SevenDaysAWeekTests.release.xcconfig"; sourceTree = "<group>"; };
+		C92D715622F089F4000C8607 /* Appfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Appfile; sourceTree = "<group>"; };
+		C92D715722F089F4000C8607 /* Fastfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
 		C959718222EDD522005FA52C /* 04.fastlane.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = 04.fastlane.md; sourceTree = "<group>"; };
 		C9633EE122C24E3100FD4CBA /* ModulesEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModulesEnum.swift; sourceTree = "<group>"; };
 		C96662B922EC815D00066078 /* 03.tdd.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = 03.tdd.md; sourceTree = "<group>"; };
@@ -146,6 +145,15 @@
 			path = Enums;
 			sourceTree = "<group>";
 		};
+		C92D715522F089F4000C8607 /* fastlane */ = {
+			isa = PBXGroup;
+			children = (
+				C92D715622F089F4000C8607 /* Appfile */,
+				C92D715722F089F4000C8607 /* Fastfile */,
+			);
+			path = fastlane;
+			sourceTree = "<group>";
+		};
 		C9633EE322C24F6D00FD4CBA /* Modules */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,10 +185,13 @@
 		C9A773C422BD23E2006E0DC7 = {
 			isa = PBXGroup;
 			children = (
+				C983526622DAFFE100D05752 /* README.md */,
+				C983526122DAFFB600D05752 /* Documents */,
 				C9A773CF22BD23E3006E0DC7 /* SevenDaysAWeek */,
 				C9A773E722BD23E4006E0DC7 /* SevenDaysAWeekTests */,
 				C9A773F222BD23E4006E0DC7 /* SevenDaysAWeekUITests */,
 				C9A773CE22BD23E3006E0DC7 /* Products */,
+				C92D715522F089F4000C8607 /* fastlane */,
 				AE0D278A7C54F96D759C07C7 /* Pods */,
 				0636EBDB1A41C88950E8862C /* Frameworks */,
 			);
@@ -199,8 +210,6 @@
 		C9A773CF22BD23E3006E0DC7 /* SevenDaysAWeek */ = {
 			isa = PBXGroup;
 			children = (
-				C983526622DAFFE100D05752 /* README.md */,
-				C983526122DAFFB600D05752 /* Documents */,
 				C91D726722C3BDB0004A872A /* Enums */,
 				C9633EE322C24F6D00FD4CBA /* Modules */,
 				C9A773D022BD23E3006E0DC7 /* AppDelegate.swift */,
@@ -364,10 +373,7 @@
 			files = (
 				C9A773DE22BD23E4006E0DC7 /* LaunchScreen.storyboard in Resources */,
 				C983525B22DAFD1C00D05752 /* HomeScreen.storyboard in Resources */,
-				C983526422DAFFB600D05752 /* 01.startaproject.md in Resources */,
-				C983526722DAFFE100D05752 /* README.md in Resources */,
 				C9A773DB22BD23E4006E0DC7 /* Assets.xcassets in Resources */,
-				C983526522DAFFB600D05752 /* 02.viper.md in Resources */,
 				C9A773D622BD23E3006E0DC7 /* MainScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
