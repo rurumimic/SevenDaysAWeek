@@ -25,6 +25,7 @@
 		C9A773DE22BD23E4006E0DC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9A773DC22BD23E4006E0DC7 /* LaunchScreen.storyboard */; };
 		C9A773E922BD23E4006E0DC7 /* SevenDaysAWeekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A773E822BD23E4006E0DC7 /* SevenDaysAWeekTests.swift */; };
 		C9A773F422BD23E4006E0DC7 /* SevenDaysAWeekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A773F322BD23E4006E0DC7 /* SevenDaysAWeekUITests.swift */; };
+		C9C2C9F222F7037D008B625F /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C2C9F122F7037D008B625F /* SnapshotHelper.swift */; };
 		C9E2288722C245F900BBF5FB /* MainWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E2288622C245F900BBF5FB /* MainWireframe.swift */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +81,7 @@
 		C9A773EF22BD23E4006E0DC7 /* SevenDaysAWeekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SevenDaysAWeekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9A773F322BD23E4006E0DC7 /* SevenDaysAWeekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenDaysAWeekUITests.swift; sourceTree = "<group>"; };
 		C9A773F522BD23E4006E0DC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9C2C9F122F7037D008B625F /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 		C9E2288622C245F900BBF5FB /* MainWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWireframe.swift; sourceTree = "<group>"; };
 		D4C433CA94D628861B982DF2 /* Pods-SevenDaysAWeekUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SevenDaysAWeekUITests.release.xcconfig"; path = "Target Support Files/Pods-SevenDaysAWeekUITests/Pods-SevenDaysAWeekUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DB81981B8F19A07FE0FB9999 /* Pods-SevenDaysAWeek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SevenDaysAWeek.release.xcconfig"; path = "Target Support Files/Pods-SevenDaysAWeek/Pods-SevenDaysAWeek.release.xcconfig"; sourceTree = "<group>"; };
@@ -234,6 +236,7 @@
 		C9A773F222BD23E4006E0DC7 /* SevenDaysAWeekUITests */ = {
 			isa = PBXGroup;
 			children = (
+				C9C2C9F122F7037D008B625F /* SnapshotHelper.swift */,
 				C9A773F322BD23E4006E0DC7 /* SevenDaysAWeekUITests.swift */,
 				C9A773F522BD23E4006E0DC7 /* Info.plist */,
 			);
@@ -528,6 +531,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9A773F422BD23E4006E0DC7 /* SevenDaysAWeekUITests.swift in Sources */,
+				C9C2C9F222F7037D008B625F /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
